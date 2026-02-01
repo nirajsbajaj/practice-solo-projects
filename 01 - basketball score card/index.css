@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    width: 250px;
+    padding: 50px;
+    justify-content: space-around;
+    background: lightblue;
+}
+
+.home {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightpink;
+}
+
+.guest {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    background: lightpink;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 20px;
+    width: auto;
+    padding: 20px;
+    background: red;
+}
+.guest p {
+    margin: 20px;
+    width: auto;
+    padding: 20px;
+    background: red;
+}
+
+button {
+    border: 2px solid red;
+    border-radius: 5px;
+    background: lightpink;
+    color: red;
+}
+
+.reset-btn-home {
+    margin: 10px 0 0 0;
+}
+
+.reset-btn-guest {
+    margin: 10px 0 0 0;
+}
