@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <!-- Start Screen -->
+        <section class="screen active" id="start-screen">
+
+            <h1>Quiz Game</h1>
+            <p>Test your knowledge with these fun questions</p>
+            <button id="strt-btn">Start Game</button>
+
+        </section>
+
+        <!-- Quiz Screen -->
+        <section class="screen" id="quiz-screen">
+
+            <!-- Question Section -->
+            <div class="question-section">
+                <h2 id="question-text">Question goes here</h2>
+            </div>
+
+            <!-- Question and Score -->
+            <div class="quiz-info">
+                <p>Question <span id="current-question">1</span> of <span>5</span></p>
+
+                <p>Score: <span id="score">0</span></p>
+            </div>
+
+            <!-- Answer div -->
+            <div id="answer-section" class="answer-section">
+                <!-- Answers goes here -->
+            </div>
+
+            <!-- Progress Bar -->
+            <div id="progress-bar" class="progress-bar">
+                <!-- Progress Bar -->
+            </div>
+
+        </section>
+
+        <!-- End Screen -->
+        <section class="screen" id="end-screen">
+
+            <h1>Quiz Result</h1>
+
+            <div class="scorecard-section">
+                <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
+                <div id="result-message"><p>Feedback Line</p></div>
+            </div>
+
+            <button id="restrt-btn">
+                Restart Quiz
+            </button>
+
+        </section>
+    </main>
+</body>
+</html>
