@@ -11,7 +11,7 @@
         <!-- Start Screen -->
         <section class="screen active" id="start-screen">
 
-            <h1>Quiz Game</h1>
+            <h1>Quiz Time</h1>
             <p>Test your knowledge with these fun questions</p>
             <button id="strt-btn">Start Game</button>
 
@@ -23,23 +23,29 @@
             <!-- Question Section -->
             <div class="question-section">
                 <h2 id="question-text">Question goes here</h2>
+                <div class="quiz-info">
+                    <p>Question <span id="current-question">1</span> of <span>5</span></p>
+
+                    <p>Score: <span id="score">0</span></p>
+                </div>
             </div>
 
             <!-- Question and Score -->
-            <div class="quiz-info">
-                <p>Question <span id="current-question">1</span> of <span>5</span></p>
-
-                <p>Score: <span id="score">0</span></p>
-            </div>
 
             <!-- Answer div -->
-            <div id="answer-section" class="answer-section">
+            <div class="answer-section" id="answer-section">
                 <!-- Answers goes here -->
+                 <p>1</p>
+                 <p>2</p>
+                 <p>3</p>
+                 <p>4</p>
             </div>
 
             <!-- Progress Bar -->
-            <div id="progress-bar" class="progress-bar">
+            <div class="progress-bar" >
+                <div class="progress" id="progress">
                 <!-- Progress Bar -->
+                </div>
             </div>
 
         </section>
