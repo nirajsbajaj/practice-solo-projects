@@ -24,7 +24,7 @@
             <div class="question-section">
                 <h2 id="question-text">Question goes here</h2>
                 <div class="quiz-info">
-                    <p>Question <span id="current-question">1</span> of <span>5</span></p>
+                    <p>Question <span id="current-question">1</span> of <span id="total-questions">5</span></p>
 
                     <p>Score: <span id="score">0</span></p>
                 </div>
@@ -35,10 +35,10 @@
             <!-- Answer div -->
             <div class="answer-section" id="answer-section">
                 <!-- Answers goes here -->
-                 <p>1</p>
+                 <!-- <p>1</p>
                  <p>2</p>
                  <p>3</p>
-                 <p>4</p>
+                 <p>4</p> -->
             </div>
 
             <!-- Progress Bar -->
@@ -57,14 +57,15 @@
 
             <div class="scorecard-section">
                 <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
-                <div id="result-message"><p>Feedback Line</p></div>
+                <div id="result-message"></div>
             </div>
 
-            <button id="restrt-btn">
+            <button id="restart-btn">
                 Restart Quiz
             </button>
 
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
