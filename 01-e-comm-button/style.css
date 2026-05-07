@@ -147,7 +147,7 @@ p {
     transition: transform 0.009s ease;
 }
 
-.delete:active {
+#reset-btn:active {
     transform: scale(0.9);
 }
 
