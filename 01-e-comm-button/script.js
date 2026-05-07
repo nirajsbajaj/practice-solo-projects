@@ -1,6 +1,7 @@
 const removeBtnEl = document.getElementById("remove-btn");
 const countTextEl = document.getElementById("count-text");
 const addBtnEl = document.getElementById("add-btn");
+const deleteBtnEl = document.getElementById("reset-btn");
 
 const addSound = new Audio("assets/sounds/start.mp3");
 const removeSound = new Audio("assets/sounds/Pop.mp3");
@@ -40,7 +41,13 @@ function decrement() {
     }
 }
 
+function resetCount() {
+    count = 0;
+    render();
+}
+
 addBtnEl.addEventListener('click', increment);
 removeBtnEl.addEventListener('click', decrement);
+deleteBtnEl.addEventListener('click', resetCount);
 
 render();
